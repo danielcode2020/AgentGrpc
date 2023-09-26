@@ -1,0 +1,320 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Common/1.0.0": {
+        "dependencies": {
+          "Google.Protobuf": "3.24.3",
+          "Grpc": "2.46.6",
+          "Grpc.Tools": "2.58.0",
+          "Microsoft.Data.Tools.Schema.Sql": "16.0.0.0",
+          "Microsoft.Data.Tools.Schema.Sql.UnitTesting": "17.0.0.0",
+          "Microsoft.Data.Tools.Schema.Sql.UnitTestingAdapter": "17.0.0.0"
+        },
+        "runtime": {
+          "Common.dll": {}
+        }
+      },
+      "Google.Protobuf/3.24.3": {
+        "runtime": {
+          "lib/net5.0/Google.Protobuf.dll": {
+            "assemblyVersion": "3.24.3.0",
+            "fileVersion": "3.24.3.0"
+          }
+        }
+      },
+      "Grpc/2.46.6": {
+        "dependencies": {
+          "Grpc.Core": "2.46.6"
+        }
+      },
+      "Grpc.Core/2.46.6": {
+        "dependencies": {
+          "Grpc.Core.Api": "2.46.6",
+          "System.Memory": "4.5.3"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Grpc.Core.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.46.6.0"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/linux-arm64/native/libgrpc_csharp_ext.arm64.so": {
+            "rid": "linux-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-x64/native/libgrpc_csharp_ext.x64.so": {
+            "rid": "linux-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx-x64/native/libgrpc_csharp_ext.x64.dylib": {
+            "rid": "osx-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/grpc_csharp_ext.x64.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x86/native/grpc_csharp_ext.x86.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "Grpc.Core.Api/2.46.6": {
+        "dependencies": {
+          "System.Memory": "4.5.3"
+        },
+        "runtime": {
+          "lib/netstandard2.1/Grpc.Core.Api.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.46.6.0"
+          }
+        }
+      },
+      "Grpc.Tools/2.58.0": {},
+      "System.Memory/4.5.3": {},
+      "Microsoft.Data.Tools.Schema.Sql/16.0.0.0": {
+        "runtime": {
+          "Microsoft.Data.Tools.Schema.Sql.dll": {
+            "assemblyVersion": "16.0.0.0",
+            "fileVersion": "16.0.9021.0"
+          }
+        }
+      },
+      "Microsoft.Data.Tools.Schema.Sql.UnitTesting/17.0.0.0": {
+        "runtime": {
+          "Microsoft.Data.Tools.Schema.Sql.UnitTesting.dll": {
+            "assemblyVersion": "17.0.0.0",
+            "fileVersion": "17.7.10.1"
+          }
+        }
+      },
+      "Microsoft.Data.Tools.Schema.Sql.UnitTestingAdapter/17.0.0.0": {
+        "runtime": {
+          "Microsoft.Data.Tools.Schema.Sql.UnitTestingAdapter.dll": {
+            "assemblyVersion": "17.0.0.0",
+            "fileVersion": "17.7.10.1"
+          }
+        }
+      },
+      "Microsoft.Data.Tools.Utilities/16.0.0.0": {
+        "runtime": {
+          "Microsoft.Data.Tools.Utilities.dll": {
+            "assemblyVersion": "16.0.0.0",
+            "fileVersion": "16.0.9021.0"
+          }
+        }
+      },
+      "Microsoft.SqlServer.TransactSql.ScriptDom/16.0.0.0": {
+        "runtime": {
+          "Microsoft.SqlServer.TransactSql.ScriptDom.dll": {
+            "assemblyVersion": "16.0.0.0",
+            "fileVersion": "16.0.9021.0"
+          }
+        }
+      },
+      "Microsoft.Data.SqlClient/3.0.0.0": {
+        "runtime": {
+          "Microsoft.Data.SqlClient.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.13.23069.2"
+          }
+        }
+      },
+      "Microsoft.Identity.Client/4.39.0.0": {
+        "runtime": {
+          "Microsoft.Identity.Client.dll": {
+            "assemblyVersion": "4.39.0.0",
+            "fileVersion": "4.39.0.0"
+          }
+        }
+      },
+      "Microsoft.SqlServer.Types/16.0.0.0": {
+        "runtime": {
+          "Microsoft.SqlServer.Types.dll": {
+            "assemblyVersion": "16.0.0.0",
+            "fileVersion": "2022.160.7.2"
+          }
+        }
+      },
+      "Microsoft.IdentityModel.Protocols.OpenIdConnect/6.8.0.0": {
+        "runtime": {
+          "Microsoft.IdentityModel.Protocols.OpenIdConnect.dll": {
+            "assemblyVersion": "6.8.0.0",
+            "fileVersion": "6.8.0.11012"
+          }
+        }
+      },
+      "Microsoft.IdentityModel.Protocols/6.8.0.0": {
+        "runtime": {
+          "Microsoft.IdentityModel.Protocols.dll": {
+            "assemblyVersion": "6.8.0.0",
+            "fileVersion": "6.8.0.11012"
+          }
+        }
+      },
+      "Microsoft.IdentityModel.Tokens/6.8.0.0": {
+        "runtime": {
+          "Microsoft.IdentityModel.Tokens.dll": {
+            "assemblyVersion": "6.8.0.0",
+            "fileVersion": "6.8.0.11012"
+          }
+        }
+      },
+      "System.IdentityModel.Tokens.Jwt/6.8.0.0": {
+        "runtime": {
+          "System.IdentityModel.Tokens.Jwt.dll": {
+            "assemblyVersion": "6.8.0.0",
+            "fileVersion": "6.8.0.11012"
+          }
+        }
+      },
+      "Microsoft.IdentityModel.JsonWebTokens/6.8.0.0": {
+        "runtime": {
+          "Microsoft.IdentityModel.JsonWebTokens.dll": {
+            "assemblyVersion": "6.8.0.0",
+            "fileVersion": "6.8.0.11012"
+          }
+        }
+      },
+      "Microsoft.IdentityModel.Logging/6.8.0.0": {
+        "runtime": {
+          "Microsoft.IdentityModel.Logging.dll": {
+            "assemblyVersion": "6.8.0.0",
+            "fileVersion": "6.8.0.11012"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Google.Protobuf/3.24.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HX8KHRTJPUcC4KOvEobKBNlMpHGYmK+3X73xPq+OUE2M5dLYvpGhp9qQQWt2jASgTUbxI1yHaGeBqFYiECBupw==",
+      "path": "google.protobuf/3.24.3",
+      "hashPath": "google.protobuf.3.24.3.nupkg.sha512"
+    },
+    "Grpc/2.46.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vpC39vgCxbVBnsn8boeQv2aGIdEFqQMnjsoDvyYfr6tC93Fe9KqNG1mAiF6KLzJTwk6aiWHGNYE2EqmDUzk5ng==",
+      "path": "grpc/2.46.6",
+      "hashPath": "grpc.2.46.6.nupkg.sha512"
+    },
+    "Grpc.Core/2.46.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ZoRg3KmOJ2urTF4+u3H0b1Yv10xzz2Y/flFWS2tnRmj8dbKLeiJaSRqu4LOBD3ova90evqLkVZ85kUkC4JT4lw==",
+      "path": "grpc.core/2.46.6",
+      "hashPath": "grpc.core.2.46.6.nupkg.sha512"
+    },
+    "Grpc.Core.Api/2.46.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Z7HJGqJYyKb53qfp1jf0wRDYs3sxOnkAFxXAW6q52LLmX/zxzjtFLI9eaWO5UC0weiWjn4iT1FzR+tj9qYZAMg==",
+      "path": "grpc.core.api/2.46.6",
+      "hashPath": "grpc.core.api.2.46.6.nupkg.sha512"
+    },
+    "Grpc.Tools/2.58.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-jWGgCVsBiBozXqKNyGXXumqDrJiu7PLShPul0UGq6II6DV1fvcCLXtQpL/N/7UJ8cyyZLqru1/DRPe/NCkw5NQ==",
+      "path": "grpc.tools/2.58.0",
+      "hashPath": "grpc.tools.2.58.0.nupkg.sha512"
+    },
+    "System.Memory/4.5.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3oDzvc/zzetpTKWMShs1AADwZjQ/36HnsufHRPcOjyRAAMLDlu2iD33MBI2opxnezcVUtXyqDXXjoFMOU9c7SA==",
+      "path": "system.memory/4.5.3",
+      "hashPath": "system.memory.4.5.3.nupkg.sha512"
+    },
+    "Microsoft.Data.Tools.Schema.Sql/16.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Data.Tools.Schema.Sql.UnitTesting/17.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Data.Tools.Schema.Sql.UnitTestingAdapter/17.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Data.Tools.Utilities/16.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.SqlServer.TransactSql.ScriptDom/16.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Data.SqlClient/3.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Identity.Client/4.39.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.SqlServer.Types/16.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.IdentityModel.Protocols.OpenIdConnect/6.8.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.IdentityModel.Protocols/6.8.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.IdentityModel.Tokens/6.8.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.IdentityModel.Tokens.Jwt/6.8.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.IdentityModel.JsonWebTokens/6.8.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.IdentityModel.Logging/6.8.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
